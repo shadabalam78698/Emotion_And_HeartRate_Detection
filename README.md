@@ -66,8 +66,14 @@ python TestEmotionDetector.py
 
 
 
+
+
 HEART RATE DETECTION USING IMAGE PROCESSING
 
+
+INTRODUCTION
+
+A person’s heart rate can be indicative of their health, fitness, activity level, stress, and much more. Cardiac pulse is typically measured in clinical settings using electrocardio-gram (ECG), which requires patients to wear chest straps with adhesive gel patches that can be abrasive and become uncomfortable for the user.Heart rate may also be monitored using pulse oximetry sensors that may be worn on the fingertip or earlobe. These sensors are not convenient for longterm wear and the pressure can become uncomfortable over time. In addition to the discomforts of traditional pulse measurement devices, these devices can damage the fragile skin of premature new-borns or elderly people. For these populations especially, a non-contact means of detecting pulse could be very beneficial. Non-contact heart rate measurement through a simple webcam or phone camera would also aid telemedicine and allow the average person to track their heart rate without purchasing special equipment.
 
 Packages need to be installed
 
