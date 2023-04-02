@@ -97,3 +97,12 @@ Packages need to be installed
 ->PyQt5
 
 ->pyqtgraph
+
+TO IMPLEMENT THE CODE:
+python GUI.py
+
+
+REFERENCE:
+Emotion & Heartbeat Detection using Image
+Processing
+Kaushal Kanakia, Saurabh Patil, Sujay Sabnis, Vedant Shah
