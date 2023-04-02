@@ -70,20 +70,30 @@ HEART RATE DETECTION USING IMAGE PROCESSING:
 
 INTRODUCTION
 
-A person’s heart rate can be indicative of their health, fitness, activity level, stress, and much more. Cardiac pulse is typically measured in clinical settings using electrocardio-gram (ECG), which requires patients to wear chest straps with adhesive gel patches that can be abrasive and become uncomfortable for the user.Heart rate may also be monitored using pulse oximetry sensors that may be worn on the fingertip or earlobe. These sensors are not convenient for longterm wear and the pressure can become uncomfortable over time. In addition to the discomforts of traditional pulse measurement devices, these devices can damage the fragile skin of premature new-borns or elderly people. For these populations especially, a non-contact means of detecting pulse could be very beneficial. Non-contact heart rate measurement through a simple webcam or phone camera would also aid telemedicine and allow the average person to track their heart rate without purchasing special equipment.
+A person’s heart rate can be indicative of their health, fitness, activity level, stress, and much more. Cardiac pulse is typically measured in clinical settings using electrocardio-gram (ECG), which requires patients to wear chest straps with adhesive gel patches that can be abrasive and become uncomfortable for the user.Heart rate may also be monitored using pulse oximetry sensors that may be worn on the fingertip or earlobe. These sensors are not convenient for longterm wear and the pressure can become uncomfortable over time. In addition to the discomforts of traditional pulse measurement devices, these devices can damage the fragile skin of premature new-borns or elderly people. For these populations especially, a non-contact means of detecting pulse could be very beneficial. Non-contact heart rate measurement through a simple webcam or phone camera would also aid telemedicine and allow the average person to track their heart rate without purchasing special equipm
+
+
+DIFFERENT STEPS IN THE PROJECT
+
+The proposed method includes the following steps: (1) The facial video is recorded with a standard RGB camera, and the facial and background ROI signals are extracted from each video frame. (2) The JBSS method is used to remove the common illumination component from the facial and background ROI signals, obtaining a new facial ROI signal. (3) The pulse signal is extracted from the new facial ROI signal using the projection method. (4) The green channel signal from the facial ROI is used to identify the pulse signal, and the HR is calculated using the fast Fourier transform (FFT).The highest peak is the Heart rate.The colours are then amplified to make the color variation visible.
+
+DEMO SHOTS
+
+![result](https://user-images.githubusercontent.com/106025020/229366976-4888d229-34f0-4d49-8abf-1a8fa7b6aa0e.png)
+
 
 Packages need to be installed
 
-->scipy==1.3.0
+->scipy
 
-->dlib==19.17.0
+->dlib
 
-->imutils==0.5.2
+->imutils
 
-->numpy==1.22.0
+->numpy
 
-->opencv-python==4.2.0.32
+->opencv-python
 
-->PyQt5==5.12.3
+->PyQt5
 
-->pyqtgraph==0.10.0
+->pyqtgraph
