@@ -67,7 +67,6 @@ python TestEmotionDetector.py
 
 
 
-
 HEART RATE DETECTION USING IMAGE PROCESSING
 
 
