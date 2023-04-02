@@ -103,6 +103,9 @@ python GUI.py
 
 
 REFERENCE:
-Emotion & Heartbeat Detection using Image
+
+:-Emotion & Heartbeat Detection using Image
 Processing
 Kaushal Kanakia, Saurabh Patil, Sujay Sabnis, Vedant Shah
+
+
