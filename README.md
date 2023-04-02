@@ -71,17 +71,10 @@ HEART RATE DETECTION USING IMAGE PROCESSING
 
 Packages need to be installed
 
-
 ->scipy==1.3.0
-
 ->dlib==19.17.0
-
 ->imutils==0.5.2
-
 ->numpy==1.22.0
-
 ->opencv-python==4.2.0.32
-
 ->PyQt5==5.12.3
-
 ->pyqtgraph==0.10.0
