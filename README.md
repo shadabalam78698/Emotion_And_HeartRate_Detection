@@ -107,5 +107,5 @@ REFERENCE:
 :-Emotion & Heartbeat Detection using Image
 Processing
 Kaushal Kanakia, Saurabh Patil, Sujay Sabnis, Vedant Shah
-
+<img src="https://i.imgur.com/ZWnhY9T.png" width=50% height=50%>
 
